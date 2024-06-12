@@ -1,0 +1,2046 @@
+*{
+    margin: 10;
+    padding:10;
+    border-radius: 5px;
+}
+body{
+    background-color: black;
+    width:98%;
+    border:1px solid black;
+    border-radius: 41px;
+    display: flex;
+    flex-direction: column;
+}
+#home {
+    background-color: #272727;
+    height:95vh;
+    width:100%;
+}
+#home #frame1{
+    background-image: url('images/home.svg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    width:93%;
+    height:75%;
+  margin-left:7vh;
+  padding-top: 5vh;
+  position: relative;
+    top:5vh;
+}
+#home #frame1 #header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#home #frame1 #header img{
+    width:15%;
+}
+#home #header #btn1 {
+    margin-left: 10px;
+    display: flex;
+    gap:5px;
+}
+#home #header #btn2 {
+    margin-right: 10px;
+    display: flex;
+    gap:5px;
+}
+#home #header #btn1 button,
+#home #header #btn2 button{
+    border:1px solid #ffffff;
+    border-radius: 5px;
+    background-color:#272727;
+    color:#ffffff;
+    width:15vh;
+    height:5vh;
+    font-size: 15px;
+}
+#home #mid {
+    display: flex;
+    justify-content: space-between;
+}
+#home #mid #logo{
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+    margin-left: 20px;
+}
+#home #frame1 #mid #heading h3{
+   color:#ffffff;
+   font-size: 45px;
+   margin-left:30%;
+   width:70%;
+  
+   
+}
+#home #frame1 #mid #note{
+    color:#ffffff;
+    width:15%;
+    height:90px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    backdrop-filter: blur(5px); 
+   font-size: 12px;
+   padding: 2px;
+   margin-right: 5vh;
+   margin-top: 15vh;
+
+   
+}
+#home #frame1 #mid #note h5{
+    margin-left:40%;
+    font-size:15px ;
+    margin-top: -3px;
+    
+}
+#home #frame1 #mid #note p{
+   margin-top: -5px;
+}
+#home #down {
+    display:flex;
+    justify-content: space-between;
+}
+#home #down #left{
+    margin-top:10vh;
+}
+#home #down #right img{
+    width:30vh;
+    height:30vh;
+    margin-top: 25px;
+}
+#home #frame1 #down #left {
+    color:#ffffff;
+
+}
+#home #frame1 #down #left p{
+    width:35%;
+}
+#home #frame1 #down #left h3{
+    font-size: 35px;
+    margin-top: -5px;
+    width:60%;
+
+}
+#home #frame1 #down #left button{
+   border-radius: 50px;
+   margin-top: -30px;
+
+}
+#achievement{
+    background-color: #272727;
+    height: 45vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:3vh;
+    margin-top: 10px;
+}
+#achievement #center p{
+    font-size: 18px;
+    color:#ffffff;
+    margin-left: 35%;
+}
+
+#achievement #center #img{
+    display:flex;
+    flex-direction: row;
+    margin-left: 10%;
+    gap:20px;
+}
+#achievement #side{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#services {
+    background-color: #272727;
+    height: 95vh;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#services h1 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 80px; /* Increased font size */
+    text-align: center;
+    margin-top: 20px;
+    flex: 1; /* Take 1 part of the 1:3 ratio */
+}
+
+#services #frame2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    flex: 3; /* Take 3 parts of the 1:3 ratio */
+    padding: 0 60px;
+    margin-top: auto; /* Push it down */
+}
+
+#services #frame3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+}
+
+#services #frame3 button {
+    border: 1px solid #ffffff;
+    border-radius: 43px;
+    background-color: #272727;
+    color: #ffffff;
+    width: 200px;
+    padding: 10px 0;
+    margin-left: 10px;
+}
+
+#services #frame3 p {
+    color: #ffffff;
+    width: 80%;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+#services #frame4 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+#services #frame4 img {
+    width:auto;
+    height: 400px; /* Increased height */
+    object-fit: contain;
+}
+
+
+#plans{
+    background-color:#272727;
+    height:95vh;
+    margin:10px;
+    display:flex;
+    justify-content: space-between;
+}
+#plans #frame5 img,
+#plans #frame6 img,
+#plans #frame7 img{
+    height:400px;
+    width:350px;
+}
+#plans #frame7 img{
+    margin-top:50px;
+    margin-right:150px;
+}
+#plans #frame6 img{
+    margin-top:150px;
+}
+#plans #frame5 img{
+    margin-top:250px;
+    margin-left:150px;
+}
+#design{
+    background-color: #272727;
+    height:95vh;
+    margin:10px;
+    background-image: url("images/design_bg.png");
+}
+#design h3{
+    color:#ffffff;
+    font-style: bold;
+    font-size: 64px;
+    padding-top: 40px;
+    margin-left: 60px;
+
+}
+#design #frame8{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+#design #frame8 img{
+   width:45%;
+   height:40%;
+   margin-left:50px;
+   margin-top:70px;
+}
+#design #frame9{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-bottom:0px;}
+   
+#design #frame9 img{
+    height:30%;
+    width:80%;
+    margin-right: 20px;
+}
+#design #frame9 #img1{
+    margin-top:-30px;
+    margin-left:23vh;
+   
+}
+#design #frame9 #img2{
+    margin-top:20px;
+    margin-left:23vh;
+   
+}
+
+#design #frame9 #img3{
+    margin-top:20px;
+    margin-left:23vh;
+   
+}
+#work{
+    background-color: #272727;
+    height:190vh;
+    margin:10px;
+   
+}
+#work div{
+    display: flex;
+    justify-content: space-between;
+}
+#work div button{
+    color:#ffffff;
+    background-color: #272727;
+    border:2px solid #ffffff;
+    border-radius: 2px;
+    width:10%;
+    height:30%;
+    margin-top: 20px;
+    margin-right: 20px;
+
+
+}
+#work h3{
+    color:#ffffff;
+    font-style: bold;
+    font-size: 60px;
+    padding-top: 40px;
+    margin-left: 60px;
+
+}
+#work img{
+    width:100%;
+    height:80%;
+    margin-top: 20px;
+}
+#partner{
+    background-color: #272727;
+    height:110vh;
+    margin:10px;
+   
+}
+#partner h3{
+    color:#ffffff;
+    font-style: bold;
+    font-size: 50px;
+    padding-top: 40px;
+    margin-left: 60px;
+   width:30%;
+}
+#partner #frame10{
+    display: flex;
+    justify-content: row;
+    justify-content: space-between;
+    margin-bottom:30px;
+}
+#partner #frame10 img{
+   
+    width:22%;
+    height:27%;
+}
+#partner #frame11 img{
+    width:30%;
+    height:400px;
+    margin-bottom: 40px;
+}
+#banner{
+    background-color: #272727;
+    height: 35vh;
+    margin:10px;
+}
+#banner h3{
+    color:#ffffff;
+    font-style: bold;
+    font-size: 40px;
+    margin-left: 60px;
+    padding-top: 50px;
+
+}
+#banner button{
+    border:1px solid #ffffff;
+    border-radius: 5px;
+    background-color:#272727;
+    color:#ffffff;
+    width:10%;
+    height:15%;
+    font-size: 12px;
+    margin-left: 40%;
+    
+}
+#about{
+    background-color: #272727;
+    height:420vh;
+    margin:10px;
+}
+#about #frame11{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+#about #frame11 img{
+    padding-top:10vh;
+}
+#about #frame11 #frame12{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    gap:10vh;
+    flex-direction: column;
+}
+
+#about #frame11 #frame12 button,#about #frame27 button,#about #frame28 button{
+    background-color: #272727;
+    border:1px solid #ffffff;
+    border-radius: 50px;
+    color:#ffffff;
+    width:150px;
+    margin-bottom: 10vh;
+   
+}
+#about #frame11 #frame12 h3{
+    color:#ffffff;
+    font-style: bold;
+    font-size: 40px;
+  
+}
+#about #frame11 #frame13{
+    color:#ffffff;
+    font-size:17px;
+    width:300px;
+}
+#about #frame14 img{
+    width:50%;
+    margin-left:25%;
+    padding-top: 50px;
+}
+#about h3{
+    color:#ffffff;
+    font-style: bold;
+    font-size: 50px;
+    padding-top: 40px;
+    margin-left: 60px;
+   width:50%;
+}
+#about #frame15,
+#about #frame21{
+    display:flex;
+    flex-direction: row;
+  
+}
+#about #frame15{
+    justify-content: space-between;
+    
+}
+#about #frame15 #frame16,
+#about #frame15 #frame17,#about #frame15 #frame18,
+#about #frame21 #frame19,#about #frame21 #frame20{
+    color:#ffffff;
+    width:400px;
+    font-size: 12px;
+    gap:5vh;
+    margin-left: 20px;
+    margin-right: 10vh;
+}
+#about #frame21 #frame20{
+    margin-left: 5px;
+}
+#about #frame22{
+    margin-left: 40%;
+    color:#ffffff;
+    width:30%;
+}
+#about #frame22 #one{
+    margin-top: 50px;
+    margin-left:30% ;
+    font-size: 10px;
+}
+#about #frame22 h4{
+    font-size:30px;
+    margin-left:25%;
+    margin-top:55px;
+    
+}
+#about #frame22 #two{
+    margin-left:20%;
+    font-size: 10px;
+}
+#about #frame23 img{
+    width:70%;
+    height:70%;
+    margin-left:20%;
+}
+#about #frame24{
+    color:#ffffff;
+    font-size:17px;
+    margin-left:20px;
+}
+#about #frame25{
+    color:#ffffff;
+    font-size:40px;
+    width:40%;
+    margin-left:-40px;
+    margin-top:-40px ;
+}
+#about #frame26 img{
+   height:60%;
+   width:70%;
+   margin-left: 20%;
+}
+#about #frame27 button{
+    margin-left: 45%;
+    margin-top: 50px;
+
+}
+#about #frame28 button{
+    margin-left:46%;
+    border-radius: 2px;
+    width:8%;
+    height:30px;
+}
+
+#client{
+    background-color: #272727;
+    height: 100vh;
+    margin:10px;
+}
+#client #frame46{
+    display:flex;
+    justify-content: space-between;
+
+}
+#client #frame46 #frame47{
+    color:#ffffff;
+    font-size: 25px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    gap:5vh;
+    margin-top: 35vh;
+}
+#client #frame46 #frame47 img{
+    width:50px;
+   margin-top:-48vh;
+}
+#client #frame46 #frame48{
+    color:#ffffff;
+    margin-left: 10%;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    gap:10vh;
+}
+#client #frame46 #frame48 #frame49 h3{
+    font-size: 55px;
+    margin-top:-5vh;
+    margin-left: -10vh ;
+}
+#client #frame46 #frame48 #frame49 p{
+    font-size: 12px;
+    width:30%;
+    margin-left: 10vh;
+}
+#client #frame46 #frame48 #frame50 img{
+    width:100%;
+    height:100%;
+    margin-left:-5vh;
+    
+} 
+#client #frame46 #frame51 div{
+    color:white;
+    background-color: #272727;
+    border:2px solid #ffffff;
+    border-radius: 60%;
+    width:30vh;
+    height:30vh;
+    margin-right: 20px;
+    margin-top: 10px;
+    padding-right:5vh;
+}
+#client #frame46 #frame51 div p{
+    font-size: 12px;
+    width:25vh;
+    padding:5vh;
+    
+}
+#faqs{
+    background-color: #272727;
+    height: 95vh;
+    margin:10px;
+}
+#faqs #frame29{
+    display:flex;
+    flex-direction: row;
+}
+#faqs #frame29 #frame30 p{
+    color:#ffffff;
+    font-size:21px;
+    margin-left: 40px;
+}
+#faqs #frame29 #frame30 #three{
+    font-size:12px;
+    width:50%;
+    margin-top:-70px;
+    margin-left:100px;
+}
+#faqs #frame29 #frame30 h3{
+    color:#ffffff;
+    font-size: 45px;
+    margin-left:40px;
+}
+
+#faqs #frame29 #frame30 img{
+    height: 60%;
+    width: 80%;
+    margin-left: 50px;
+}
+#faqs #frame31{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    padding-top: 20px;
+}
+
+#faqs #frame31 div{
+    display:flex;
+    flex-direction:row;
+    color:#ffffff;
+    border:1px solid #272727;
+    border-radius:5px;
+    background-color:#333333;
+    width:70vh;
+    height:10vh;
+    padding-left:15px;
+   justify-content: space-between;
+   margin-right: 50px;
+}
+#faqs #frame31 div img{
+    width:8vh;
+    height:8vh;
+}
+#story{
+    background-color: #272727;
+    height:95vh;
+    margin:10px;
+}
+#story #frame32{
+    background-color:#ffffff;
+    border-radius: 20px;
+    width:70%;
+    height:70%;
+    margin-left:15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom:20vh;
+    position: relative;
+    top:15vh;
+ }
+#story #frame32 #frame33,
+#story #frame32 #frame34{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+#story #frame32 #frame34 div{
+
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+    margin-top: 20px;
+
+}
+#story #frame32 #frame34 div button{
+    color:#ffffff;
+    background-color: #272727;
+    border-radius:20px;
+    width:20vh;
+    height:5vh;
+}
+ #story #frame32 #frame33 p{
+    font-size: 15px;
+    padding:5px;
+    width:25%;
+}
+ #story #frame32 #frame33 h3{
+    font-size:30px;
+    padding:5px;
+    width:50%;
+ }
+#contact{
+    background-color: #272727;
+    height:110vh;
+    margin:10px;
+}
+#contact #frame35 #frame36{
+  padding-top:20px;
+}
+#contact #frame35 #frame36 p,#contact #frame35 #frame36 h3{
+    margin-left: 50%;
+    font-size: 18px;
+    color: #ffffff;
+  
+}
+#contact #frame35 #frame36 h3{
+    font-size: 55px;
+    margin-left:45%;
+    padding-top:-30px;
+}
+#contact #frame35 #frame37{
+    display: flex;
+    flex-direction: row;
+   
+}
+#contact #frame35 #frame37 #frame38 img{
+    width:80%;
+    height:80%;
+    margin-left:50px;
+}
+#contact #frame35 #frame37 #frame39 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:75vh;
+    gap:0;
+}
+#contact #frame35 #frame37 #frame39 label{
+    color:#ffffff;
+    margin-bottom:0;
+}
+#contact #frame35 #frame37 #frame39 input{
+   height:5vh;
+   border-radius: 25px;
+}
+#contact #frame35 #frame37 #frame39 #message{
+   height:15vh;
+  
+}
+#contact #frame35  #frame39 #submit button{
+    background-color: #ffffff;
+    border-radius: 30px;
+    margin-left: 70%;
+    width:20%;
+    height:30px;
+    margin-bottom:30px;
+    margin-top: 50px;
+
+
+}
+#footer{
+    margin:10px;
+    height:35vh;
+}
+#footer #frame40{
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer #frame40 #frame41 img{
+    width:20%;
+}
+#footer #frame40 #frame41 p{
+    padding-top: 40px;
+    width:40%;
+    color:#ffffff;
+    font-size:15px;
+    margin-left: 20px;
+}
+#footer #frame40 #frame42 #frame43 ul{
+    text-decoration: none;
+    color:#ffffff;
+    display: flex;
+    gap: 5vh;
+}
+#footer #frame40 #frame42 #frame43 ul li{
+    display: flex; 
+ } 
+ #footer #frame40 #frame42 #frame44{
+    display:flex;
+    margin-left: 50%;
+    justify-content: space-between;
+    
+ }
+ #footer #frame40 #frame42 #frame44 p{
+    color:#ffffff;
+    font-size: 18px;
+    
+ }
+ #footer #frame40 #frame42 #frame45 p{
+    color:#ffffff;
+    font-size: 15px;
+    margin-top: 15vh;
+    margin-left: 75%;
+ }
+ 
+
+@media (max-width: 1024px) {
+    #home #frame1 #header img {
+        width: 12%; 
+    }
+
+    #home #header #btn1 button,
+    #home #header #btn2 button {
+        width: 12vh; 
+        height: 4vh;
+        font-size: 13px; 
+    }
+
+    #home #frame1 #mid #heading h3 {
+        font-size: 35px;
+    }
+
+    #home #frame1 #mid #note {
+        width: 20%;
+        font-size: 10px; 
+    }
+  #home #mid #logo img{
+      margin-top: 20px;
+  }
+    #home #frame1 #mid #note h5 {
+        font-size: 12px; 
+    }
+
+    #home #frame1 #mid #note p {
+        font-size: 10px; 
+    }
+
+    #home #down #right img {
+        width: 25vh; 
+        height: 25vh;
+    }
+
+    #home #frame1 #down #left h3 {
+        font-size: 30px; 
+    }
+
+    #home #frame1 #down #left p {
+        font-size: 14px; 
+    }
+
+    #home #frame1 #down #left button {
+        width: 12vh; 
+        height: 5vh;
+        font-size: 13px;
+    }
+
+    #achievement {
+        height: 40vh;
+        display: flex;
+        justify-content: space-between;
+        gap:5%;
+    }
+
+    #achievement #center p {
+        font-size: 16px; 
+        margin-left: 30%; 
+    }
+
+    #achievement #center #img {
+        margin-left: 8%; 
+        gap: 15px; 
+    }
+
+    #achievement #side {
+        margin-right: 4%; 
+        margin-top: 1.5%; 
+        margin-bottom: 1.5%; 
+    }
+    #achievement {
+        display: flex;
+        flex-direction: column;
+    }
+    #achievement #center p{
+        margin-left: 0px;
+        font-size: 20px;
+    }
+    #achievement #center #img .img{
+        width:18%;
+        margin-left: -10px;
+        margin-top: 5vh;
+    }
+    #achievement #side {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 0; 
+    }
+    #achievement #side img{
+        width:30%;
+        margin-top: -10%;
+    }
+    #services {
+        height: auto; 
+    }
+
+    #services h1 {
+        font-size: 60px; 
+    }
+
+    #services #frame2 {
+        padding: 0 30px;
+    }
+
+    #services #frame3 button {
+        width: 180px; 
+        padding: 8px 0;
+    }
+
+    #services #frame3 p {
+        font-size: 12px;
+    }
+
+    #services #frame4 img {
+        height: 200px;
+    }
+    #plans #frame5 img,
+    #plans #frame6 img,
+    #plans #frame7 img{
+        height: 300px; 
+        width: 200px;
+        margin-left: 30px; 
+    }
+    #design #frame8 img{
+        width: 45%; 
+        height: 35%;
+        margin-left: 20px; 
+        margin-top: 50px;
+    }
+
+    #design #frame9 img{
+        height:50%; 
+        width: 100%; 
+    }
+
+    #design #frame9 #img1,
+    #design #frame9 #img2,
+    #design #frame9 #img3{
+        margin-left:5vh;
+    }
+    #work {
+        height: auto; 
+    }
+
+    #work h3 {
+        font-size: 50px; 
+        padding-top: 20px; 
+        margin-left: 30px;
+    }
+
+    #work div button {
+        width: 15%;
+        height: 20%; 
+        margin-top: 40px;
+        margin-right: 10px; 
+    }
+
+    #work img {
+        width: 90%; 
+        height: auto; 
+        margin-top: 10px;
+        margin-left: 5%;
+        margin-bottom: 20px;
+    }
+    #partner {
+        height: auto;
+    }
+
+    #partner h3 {
+        font-size: 40px; 
+        margin-left: 20px; 
+        width: 50%; 
+        text-align: center; 
+    }
+
+    #partner #frame10 {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    #partner #frame10 img {
+        width: 60%; 
+        height: auto; 
+        margin-bottom: 20px; 
+    }
+
+    #partner #frame11 {
+        display :flex;
+        flex-direction:row; 
+      justify-content: space-between; 
+    }
+
+    #partner #frame11 img {
+        width: 30%; 
+        height: auto; 
+        margin: 10px 0;
+    }
+    #banner h3 {
+        font-size: 32px;
+        margin-left: 30px; 
+        padding-top: 30px;
+       
+    }
+
+    #banner button {
+        width: 20%;
+        height: 20%; 
+        font-size: 14px; 
+    }
+    #about h3 {
+        font-size: 40px; /* Adjust heading size */
+        margin-left: 30px; /* Adjust left margin */
+        padding-top: 30px; /* Adjust top padding */
+        width: 70%; /* Adjust width */
+    }
+
+    #about #frame11 {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
+    }
+
+    #about #frame11 #frame12 button,
+    #about #frame27 button,
+    #about #frame28 button {
+        width: 120px; /* Adjust button width */
+        font-size: 10px; /* Adjust font size */
+        margin-bottom: 5vh; /* Adjust margin bottom */
+    }
+
+    #about #frame11 #frame12 h3 {
+        font-size: 30px; /* Adjust heading size */
+    }
+
+    #about #frame14 img,
+    #about #frame23 img,
+    #about #frame26 img {
+        width: 80%; /* Adjust image width */
+        margin-left: 10%; /* Adjust left margin */
+    }
+    #about #frame25{
+        margin-left: 10px;
+    }
+    #client{
+        height:120vh;
+    }
+    #client #frame46 {
+        display: flex;
+        flex-direction: column;
+    }
+    #client #frame46 #frame47 {
+     display: flex;
+     flex-direction:row ;
+     gap:0;
+     margin-top:5vh;
+     margin-left: 20px; }
+
+#client #frame46 #frame47 img {
+    width: 40px;
+    margin-top:15px;
+    margin-right: 50vh;
+    margin-left:10px;
+    
+}
+
+#client #frame46 #frame48 #frame49 h3 {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#client #frame46 #frame48 #frame49 p {
+    font-size: 12px;
+    width: 70%;
+}
+
+#client #frame46 #frame48 #frame50 img {
+    width: 100%;
+    height: auto;
+    margin-left:-8px;
+    margin-top:-20px;
+}
+#client #frame46 #frame51{
+display:flex;
+flex-direction: row;
+}
+#client #frame46 #frame51 div{
+width:30%;
+height: 20vh;
+margin-top: 3vh;
+margin-bottom: -5px;
+margin-left: 10px;
+}
+
+#client #frame46 #frame51 div p {
+font-size:10px;
+padding-bottom:3vh;
+width:90%;
+height:70%;
+padding-top:2vh;
+padding-left: 4vh;
+}
+    #faqs #frame29 #frame30 img {
+        max-width: 350px;
+    }
+    #faqs #frame31 div {
+        max-width: 60vh;
+    }
+    #footer #frame40 #frame41 img {
+        width: 50%;
+    }
+    #footer #frame40 #frame41 p {
+        font-size: 14px;
+        width:90%;
+    }
+    #footer #frame40 #frame42 #frame43 ul {
+        gap: 4vh;
+    }
+    #footer #frame40 #frame42 #frame44 p {
+        font-size: 16px;
+    }
+    #footer #frame40 #frame42 #frame45 p {
+        font-size: 14px;
+        margin-left: 65%;
+        margin-top: 4vh;
+    }
+}
+   
+   
+
+@media (max-width: 768px) {
+    #home #frame1 #header img {
+        width: 10%; 
+    }
+
+    #home #header #btn1 button,
+    #home #header #btn2 button {
+        width: 10vh; 
+        height: 4vh; 
+        font-size: 12px; 
+    }
+
+    #home #frame1 #mid #heading h3 {
+        font-size: 30px;
+    }
+
+    #home #frame1 #mid #note {
+        width: 25%; 
+        font-size: 9px; 
+    }
+
+    #home #frame1 #mid #note h5 {
+        font-size: 10px;
+    }
+    #home #mid #logo img{
+        margin-top: 10px;
+    }
+    #home #frame1 #mid #note p {
+        font-size: 9px; 
+    }
+
+    #home #down #right img {
+        width: 40vh; 
+        height: 40vh;
+        margin-top: 10vh;
+    }
+
+    #home #frame1 #down #left h3 {
+        font-size: 25px;
+        width:80%; 
+    }
+
+    #home #frame1 #down #left p {
+        font-size: 13px; 
+    }
+
+    #home #frame1 #down #left button {
+        width: 12vh; 
+        height: 5vh;
+        font-size: 12px;
+    }
+    #achievement {
+        display: flex;
+        flex-direction: column;
+    }
+    #achievement #center p{
+        margin-left: 0px;
+        font-size: 20px;
+    }
+    #achievement #center #img .img{
+        width:18%;
+        margin-left: -10px;
+        margin-top: 5vh;
+    }
+    #achievement #side {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 0; 
+    }
+    #achievement #side img{
+        width:30%;
+    }
+    #services {
+        height: auto; 
+    }
+
+    #services h1 {
+        font-size: 50px; 
+    }
+
+    #services #frame2 {
+        flex-direction: column;
+        align-items: center; 
+        padding: 0 20px; 
+    }
+
+    #services #frame3 {
+        gap: 5vh; 
+        align-items: center;
+    }
+
+    #services #frame3 button {
+        width: 160px; 
+        padding: 6px 0;
+    }
+
+    #services #frame3 p {
+        font-size: 11px;
+        width: 100%; 
+        text-align: center; 
+        margin-left: 0; 
+    }
+
+    #services #frame4 {
+        flex-direction: column; 
+        align-items: center; 
+        gap: 5px; 
+    }
+
+    #services #frame4 img {
+        height: 250px; 
+    }
+    #plans #frame5 img,
+    #plans #frame6 img,
+    #plans #frame7 img{
+        height: 250px;
+        width: 150px; 
+        margin-left:5px;
+    }
+    #plans #frame5 img{
+        margin-left: 10px;
+    }
+
+    #design #frame8 img{
+        width: 40%; 
+        height: 50%; 
+        margin-left: 20px; 
+        margin-top: 40px; 
+    }
+
+    #design #frame9 img{
+        height: 50%;
+        width: 100%; 
+    }
+
+    #design #frame9 #img1,
+    #design #frame9 #img2,
+    #design #frame9 #img3{
+        margin-left: 5vh; 
+    }
+    #work h3 {
+        font-size: 40px; 
+        padding-top: 15px; 
+        margin-left: 20px;
+    }
+
+    #work div button {
+        width: 20%;
+        height: 15%; 
+        margin-top:45px; 
+        margin-right: 5px;
+    }
+
+    #work img {
+        width: 80%; 
+        height: auto; 
+        margin-top: 5px; 
+        margin-bottom: 10px;
+        margin-left: 10%;
+    }
+    #partner h3 {
+        font-size: 30px; 
+        margin-left: 15%; 
+        width: 70%; 
+        text-align: center; 
+    }
+
+    #partner #frame10 img {
+        width: 80%; 
+        height: auto; 
+   
+    }
+
+    #partner #frame11 img {
+        width: 30%; 
+        height: auto; 
+    }
+    #banner h3 {
+        font-size: 24px; 
+        margin-left: 20px;
+        padding-top: 20px; 
+    }
+
+    #banner button {
+        width: 30%; 
+        height: 15%;
+        font-size: 12px; 
+    }
+    #about{
+        height:auto;
+    }
+    #about #frame11 #frame12 h3,#about h3{
+        font-size: 25px; 
+        width:100%;
+        margin-left: 10px; 
+        padding-top: 10px; 
+    } 
+    #about #frame11 {
+        display: flex;
+        flex-direction: column;
+    }
+#about #frame11 #frame12{
+    display: flex;
+    flex-direction: row;
+}
+#about #frame11 #frame12 button{
+    margin-top: 30px;
+    margin-right: 10px;
+}
+#about #frame11 #frame13{
+    margin-left: 30px;
+}
+    #about #frame11 #frame12 button,
+    #about #frame27 button,
+    #about #frame28 button {
+        width: 30%; 
+        font-size: 15px; 
+        margin-bottom: 3vh;
+        height:10%; 
+    }
+  
+    #about #frame14 img,
+    #about #frame23 img,
+    #about #frame26 img {
+        width: 90%; /* Adjust image width */
+        margin-left: 20px; /* Remove left margin */
+    }
+    #about #frame15,#about #frame21{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+       
+    }
+    #about #frame15 #frame16,
+    #about #frame15 #frame17,
+    #about #frame15 #frame18,
+    #about #frame21 #frame19,
+    #about #frame21 #frame20{
+        width:75%;
+        padding-right: 10px;
+        }
+        #about #frame21 #frame20{
+            margin-left: 20px;
+        }
+        #about #frame22 #one{
+            font-size: 12px;
+            width:100%;
+            margin-left:-10%;
+        }
+        #about #frame22 h4{
+            width:100%;
+            margin-left: -10px;
+
+        }
+        #about #frame22 #two{
+            font-size:10px;
+            width:100%;
+            margin-left: -20px;
+        }
+        #about #frame24{
+            margin-left: 20px;
+        }
+        #about #frame25{
+            margin:15px;
+            width:100%;
+        }
+       
+        #client #frame46 {
+            display: flex;
+            flex-direction: column;
+        }
+        #client #frame46 #frame47 {
+         display: flex;
+         flex-direction:row ;
+         gap:5vh;
+         margin-top:5vh;
+         margin-left: 20px; }
+
+    #client #frame46 #frame47 img {
+        width: 40px;
+        margin-top:15px;
+        margin-right: 50vh;
+        margin-left: 20px;
+        
+    }
+
+    #client #frame46 #frame48 #frame49 h3 {
+        font-size: 30px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    #client #frame46 #frame48 #frame49 p {
+        font-size: 12px;
+        width: 70%;
+    }
+
+    #client #frame46 #frame48 #frame50 img {
+        width: 100%;
+        height: auto;
+        margin-left:-8px;
+        margin-top:-20px;
+    }
+#client #frame46 #frame51{
+    display:flex;
+    flex-direction: row;
+}
+#client #frame46 #frame51 div{
+    width:30%;
+    height: 20vh;
+    margin-top: 3vh;
+    
+}
+
+#client #frame46 #frame51 div p {
+    font-size:8px;
+    padding-bottom:3vh;
+    width:90%;
+    height:70%;
+    padding-top:2vh;
+    padding-left: 4vh;
+}
+    #faqs{
+        height: auto;
+    }
+    #faqs #frame29{
+        display:flex;
+        flex-direction: column;
+    }
+    #faqs #frame29 #frame30 img {
+        max-width: 80%;
+        height:60%;
+        margin-top:-10px;
+    }
+    #faqs #frame29 #frame30 h3 {
+        font-size:35px;
+        padding-top:-10px;
+    }
+    #faqs #frame29 #frame30 p {
+        font-size:12px;
+        padding-top:10px;
+    }
+    #faqs #frame31 div {
+        max-width: 80%;
+        height:20%;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    #story #frame32{
+        display: flex;
+        flex-direction: column;
+
+    }
+    #story #frame32 #frame33{
+        display: flex;
+        flex-direction: column;
+        gap:10vh;
+    }
+    #story #frame32 #frame34{
+        display: flex;
+        flex-direction: row;
+    }
+    #story #frame32 #frame33 p,
+    #story #frame32 #frame33 h3
+    {
+        width:80%;
+        margin:10px;
+
+    }
+    #story #frame32 #frame33 p{
+       font-size: 20px;
+    }
+    #story #frame32 #frame34 div{
+        width:50%;
+        margin-left: 5px;
+    }
+    #contact{
+        height:auto;
+    }
+    #contact #frame35 #frame36 p,
+    #contact #frame35 #frame36 h3 {
+        font-size: 75%;
+        margin-left: 40%;
+    }
+    #contact #frame35 #frame36 h3 {
+        font-size: 40px;
+        margin-left:30%;
+    }
+    #contact #frame35 #frame37 #frame38 img {
+        width: 70%;
+        height: 70%;
+        margin-left: 25%;
+        margin-top: 10px;
+    }
+    #contact #frame35 #frame37 {
+        flex-direction: column;
+        align-items: center;
+    }
+    #contact #frame35 #frame37 #frame39 div {
+        width: 50vh;
+    }
+    #contact #frame35 #frame39 #submit button {
+        width: 30%;
+        height: 20%;
+        margin-left: 40%;
+    }
+    #footer #frame40 {
+        flex-direction: column;
+        align-items: center;
+    }
+    #footer #frame40 #frame41 img {
+        width: 25%;
+        margin-left: 40%;
+    }
+    #footer #frame40 #frame41 p {
+        font-size: 12px;
+        width: 60%;
+        text-align: center;
+        margin-left:20%;
+    }
+    #footer #frame40 #frame42 #frame43 ul {
+        gap: 3vh;
+    }
+    #footer #frame40 #frame42 #frame44 {
+        margin-left: 0;
+        justify-content: center;
+        gap:5px;
+    }
+    #footer #frame40 #frame42 #frame44 p {
+        font-size: 14px;
+    }
+    #footer #frame40 #frame42 #frame45 p {
+        font-size: 12px;
+        margin-top: 10vh;
+        margin-left: 30%;
+    }
+
+
+
+}
+
+@media (max-width: 480px) {
+    #home #frame1{
+        margin-left:10px;
+       
+    }
+    #home #frame1 #header img {
+        width: 18%; 
+        border-radius: 0;
+        
+    }
+
+    #home #header #btn1 button,
+    #home #header #btn2 button {
+        width: 8vh; 
+        height: 4vh; 
+        font-size: 10px; 
+    }
+
+    #home #frame1 #mid #heading h3 {
+        font-size: 25px; 
+        width:80%;
+    }
+    #home #mid #logo img{
+        margin-top:5px;
+    }
+    #home #frame1 #mid #note {
+        width: 30%; 
+        font-size: 8px; 
+        margin-top: 30px;
+    }
+
+    #home #frame1 #mid #note h5 {
+        font-size: 8px; 
+    }
+
+    #home #frame1 #mid #note p {
+        font-size: 8px;
+    }
+
+    #home #down #right img {
+        width: 30vh; 
+        height: 30vh;
+        margin-bottom: 5px;
+        margin-right: 20px;
+        margin-top: 15vh;
+
+    }
+
+    #home #frame1 #down #left h3 {
+        font-size: 20px;
+        width:100%; 
+        margin-top: 30px;
+    }
+
+    #home #frame1 #down #left p {
+        font-size: 12px;
+        width:60%; 
+        margin-top: 40px;
+    }
+
+    #home #frame1 #down #left button {
+        width: 8vh;
+        height: 4vh;
+        font-size: 10px;
+    }
+    #achievement {
+        display: flex;
+        flex-direction: column;
+    }
+    #achievement #center p{
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    #achievement #center #img .img{
+        width:18%;
+        margin-left: -10px;
+        margin-top: 5vh;
+    }
+    #achievement #side {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 0; 
+    }
+    #achievement #side img{
+        width:30%;
+    }
+    #services {
+        height: auto;
+    }
+
+    #services h1 {
+        font-size: 40px;
+    }
+
+    #services #frame2 {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 10px; 
+    }
+
+    #services #frame3 {
+        gap: 2vh; 
+        align-items: center; 
+    }
+
+    #services #frame3 button {
+        width: 140px; 
+        padding: 5px 0; 
+    }
+
+    #services #frame3 p {
+        font-size: 10px;
+        width: 100%; 
+        text-align: center; 
+        margin-left: 0; 
+    }
+
+    #services #frame4 {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px; 
+      
+    }
+
+    #services #frame4 img {
+        height: 200px;
+
+    }
+    #plans #frame5 img,
+    #plans #frame6 img,
+    #plans #frame7 img{
+        height: 200px; 
+        width: 130px;
+        margin-left: 2px; 
+    }
+    #plans #frame5 img{
+        margin-left:10px;
+        
+
+    }
+    #design h3{
+        margin-left: 20%;
+        font-size: 40px;
+        width: 100%;
+    }
+    #design #frame8{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #design #frame8 img{
+        width: 50%; 
+        height: 50%; 
+        margin-left:30%; 
+        margin-top: 10px; 
+    }
+
+    #design #frame9 img{
+        height: 30%; 
+        width: 100%;
+        margin-right:0; 
+    }
+
+    #design #frame9 #img1,
+    #design #frame9 #img2,
+    #design #frame9 #img3{
+        margin-left: 20px;
+        margin-top: 20px; 
+    }
+
+    #work h3 {
+        font-size: 30px; 
+        padding-top: 10px; 
+        margin-left: 10px;
+    }
+
+    #work div button {
+        width: 30%;
+        height: 10%; 
+        margin-top: 25px; 
+        margin-right: 5px;
+    }
+
+    #work img {
+        width: 70%; 
+        height: auto; 
+        margin-top: 5px;
+        margin-left:20%; 
+        margin-bottom: 10px;/* Decrease top margin */
+    }
+    #partner h3 {
+        font-size: 25px; 
+        margin-left: 0; 
+        width: 100%; 
+        text-align: center; 
+    }
+    #partner #frame10{
+        display:flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    #partner #frame10 img {
+        width: 90%; 
+        height: auto;
+        margin-left:20px;
+    }
+   #partner #frame11{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: -5px;
+   }
+    #partner #frame11 img {
+        width: 28%; 
+        height: auto; 
+    }
+    #banner h3 {
+        font-size: 25px;
+        margin-left: 5px;
+        padding-top: 10px; 
+    }
+
+    #banner button {
+        width: 40%; 
+        height:15%;
+         margin-left: 30%;
+        font-size: 10px;
+    }
+    #about{
+        height:auto;
+    }
+    #about #frame11 #frame12 h3,#about h3{
+        font-size: 25px; 
+        width:100%;
+        margin-left: 10px; 
+        padding-top: 10px; 
+    } 
+    #about #frame11 {
+        display: flex;
+        flex-direction: column;
+    }
+#about #frame11 #frame12{
+    display: flex;
+    flex-direction: row;
+}
+#about #frame11 #frame12 button{
+    margin-top: 30px;
+    margin-right: 10px;
+}
+#about #frame11 #frame13{
+    margin-left: 30px;
+}
+    #about #frame11 #frame12 button,
+    #about #frame27 button,
+    #about #frame28 button {
+        width: 25%; 
+        font-size: 8px; /* Adjust font size */
+        margin-bottom: 3vh;
+        height:25%; /* Adjust margin bottom */
+    }
+  
+    #about #frame14 img,
+    #about #frame23 img,
+    #about #frame26 img {
+        width: 90%; /* Adjust image width */
+        margin-left: 20px; /* Remove left margin */
+    }
+    #about #frame15,#about #frame21{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+       
+    }
+    #about #frame15 #frame16,
+    #about #frame15 #frame17,
+    #about #frame15 #frame18,
+    #about #frame21 #frame19,
+    #about #frame21 #frame20{
+        width:75%;
+        padding-right: 10px;
+        }
+        #about #frame21 #frame20{
+            margin-left: 20px;
+        }
+        #about #frame22 #one{
+            font-size: 12px;
+            width:100%;
+            margin-left:-10%;
+        }
+        #about #frame22 h4{
+            width:100%;
+            margin-left: -10px;
+
+        }
+        #about #frame22 #two{
+            font-size:10px;
+            width:100%;
+            margin-left: -20px;
+        }
+        #about #frame24{
+            margin-left: 20px;
+        }
+        #about #frame25{
+            margin:15px;
+            width:100%;
+        }
+       
+            #client #frame46 {
+                display: flex;
+                flex-direction: column;
+            }
+            #client #frame46 #frame47 {
+             display: flex;
+             flex-direction:row ;
+             gap:5vh;
+             margin-top: 10px;
+             margin-left: 20px; }
+    
+        #client #frame46 #frame47 img {
+            width: 40px;
+            margin-top:15px;
+            margin-right: 50vh;
+            
+        }
+    
+        #client #frame46 #frame48 #frame49 h3 {
+            font-size: 30px;
+            margin-left: -10px;
+        }
+    
+        #client #frame46 #frame48 #frame49 p {
+            font-size: 12px;
+            width: 70%;
+        }
+    
+        #client #frame46 #frame48 #frame50 img {
+            width: 100%;
+            height: auto;
+            margin-left: 10px;
+            margin-top:-20px;
+        }
+    #client #frame46 #frame51{
+        display:flex;
+        flex-direction: row;
+    }
+        #client #frame46 #frame51 div{
+            width:30%;
+            height: 15vh;
+            margin-top: 3vh;
+            
+        }
+    
+        #client #frame46 #frame51 div p {
+            font-size:6px;
+            padding-bottom:3vh;
+            width:90%;
+            height:70%;
+            padding-top:2vh;
+            padding-left: 4vh;
+        }
+        #faqs{
+            height: auto;
+        }
+        #faqs #frame29{
+            display:flex;
+            flex-direction: column;
+        }
+        #faqs #frame29 #frame30 img {
+            max-width: 80%;
+            height:60%;
+            margin-top:-10px;
+        }
+        #faqs #frame29 #frame30 h3 {
+            font-size:35px;
+            padding-top:-10px;
+        }
+        #faqs #frame29 #frame30 p {
+            font-size:12px;
+            padding-top:10px;
+        }
+        #faqs #frame31 div {
+            max-width: 80%;
+            height:10%;
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+        #story #frame32{
+            display: flex;
+            flex-direction: column;
+    
+        }
+        #story #frame32 #frame33{
+            display: flex;
+            flex-direction: column;
+            gap:10vh;
+        }
+        #story #frame32 #frame34{
+            display: flex;
+            flex-direction: row;
+        }
+        #story #frame32 #frame33 p,
+        #story #frame32 #frame33 h3
+        {
+            width:80%;
+            margin:10px;
+
+        }
+        #story #frame32 #frame33 p{
+           font-size: 20px;
+        }
+        #story #frame32 #frame34 div{
+            width:50%;
+            margin-left: 5px;
+        }
+        #contact #frame35 #frame36 p,
+    #contact #frame35 #frame36 h3 {
+        font-size: 65%;
+        margin-left: 40%;
+    }
+    #contact #frame35 #frame36 h3 {
+        font-size: 35px;
+        margin-left:35%;
+    }
+    #contact #frame35 #frame37 #frame38 img {
+        width: 50%;
+        height: 50%;
+        margin-left: 30%;
+    }
+    #contact #frame35 #frame37 {
+        flex-direction: column;
+        align-items: center;
+    }
+    #contact #frame35 #frame37 #frame39 div {
+        width: 40vh;
+    }
+    #contact #frame35 #frame39 #submit button {
+        width: 30%;
+        height: 45px;
+        margin-left: 40%;
+        margin-top: 10px;
+    }
+    #footer {
+        height: auto;
+    }
+    #footer #frame40 #frame41 img {
+        width: 35%;
+    }
+    #footer #frame40 #frame41 p {
+        font-size: 10px;
+        width: 80%;
+        text-align: center;
+        margin-left: 10px;
+        margin-top: -30px;
+    }
+    
+    #footer #frame40 #frame42 #frame43 ul {
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        gap: 2vh;
+        margin-left: -20px;
+    } #footer #frame40 #frame42 #frame44{
+        margin-left:10vh;
+        gap:5px;
+        
+    }
+    #footer #frame40 #frame42 #frame44 p {
+        font-size: 12px;
+        text-align: center;
+    }
+    #footer #frame40 #frame42 #frame45 p {
+        font-size: 10px;
+        margin-top: 5vh;
+        text-align: center;
+        margin-left: 20px;
+    }
+}
