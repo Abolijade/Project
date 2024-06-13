@@ -1880,6 +1880,9 @@ padding-left: 4vh;
             margin:15px;
             width:100%;
         }
+    #client{
+        height:auto;
+    }
        
             #client #frame46 {
                 display: flex;
