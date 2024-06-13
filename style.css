@@ -1921,6 +1921,7 @@ padding-left: 4vh;
     #client #frame46 #frame51{
         display:flex;
         flex-direction:column;
+        gap:5px;
     }
         #client #frame46 #frame51 div{
             width:30%;
