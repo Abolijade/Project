@@ -1705,11 +1705,12 @@ padding-left: 4vh;
     #plans #frame6 img,
     #plans #frame7 img{
         height: 200px; 
-        width: 110px;
+        width: 100px;
         margin-left: 2px; 
     }
     #plans #frame5 img{
         margin-left:10px;
+        width:100px;
         
 
     }
