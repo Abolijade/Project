@@ -2030,11 +2030,13 @@ padding-left: 4vh;
         display: flex;
         flex-direction: row;
         align-items:center;
-        gap: 2vh;
+        gap: 1.5vh;
         margin-left: -20px;
+        width:80%;
     } #footer #frame40 #frame42 #frame44{
         margin-left:10vh;
         gap:5px;
+        
         
     }
     #footer #frame40 #frame42 #frame44 p {
