@@ -1568,6 +1568,8 @@ padding-left: 4vh;
 }
 
 @media (max-width: 480px) {
+    #home{
+        height:auto;}
     #home #frame1{
         margin-left:10px;
        
@@ -1591,7 +1593,7 @@ padding-left: 4vh;
     #home #frame1 #mid #heading h3 {
         font-size: 25px; 
         width:80%;
-        margin-left:-2vh;
+        margin-right:-2vh;
     }
     #home #mid #logo img{
         margin-top:5px;
