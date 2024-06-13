@@ -1568,6 +1568,9 @@ padding-left: 4vh;
 }
 
 @media (max-width: 480px) {
+    #home,#achievement,#servuces,#plans,#design,#work,#partner,#banner,#about,#client,faqs,#story,#contact,#footer{
+        width:100%;
+    }
     #home{
         height:110vh;
     }
