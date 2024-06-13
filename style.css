@@ -1910,12 +1910,13 @@ padding-left: 4vh;
         }
     #client #frame46 #frame51{
         display:flex;
-        flex-direction: row;
+        flex-direction:column;
     }
         #client #frame46 #frame51 div{
             width:30%;
             height: 15vh;
             margin-top: 3vh;
+            margin-left:30%;
             
         }
     
