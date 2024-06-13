@@ -1618,7 +1618,8 @@ padding-left: 4vh;
     #home #frame1 #mid #note p {
         font-size: 8px;
     }
-
+#home #frame1 #down{
+    marggin-bottom:-20px;}
     #home #down #right img {
         width: 30vh; 
         height: 30vh;
