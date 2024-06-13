@@ -1588,6 +1588,7 @@ padding-left: 4vh;
     #home #frame1 #mid #heading h3 {
         font-size: 25px; 
         width:80%;
+        margin-left:-5vh;
     }
     #home #mid #logo img{
         margin-top:5px;
@@ -1599,7 +1600,7 @@ padding-left: 4vh;
         height:40%;
         margin-left: 20px;
         padding:2px;
-        margin-right:-10vh;
+        margin-right:-5vh;
     }
 
     #home #frame1 #mid #note h5 {
