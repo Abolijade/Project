@@ -1698,6 +1698,9 @@ padding-left: 4vh;
         height: 200px;
 
     }
+    #plans{
+        height:auto;
+    }
     #plans #frame5 img,
     #plans #frame6 img,
     #plans #frame7 img{
