@@ -1597,8 +1597,9 @@ padding-left: 4vh;
         font-size: 8px; 
         margin-top: 30px;
         height:40%;
-        margin-left: 40px;
+        margin-left: 20px;
         padding:2px;
+        margin-right:-5vh;
     }
 
     #home #frame1 #mid #note h5 {
