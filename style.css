@@ -1584,6 +1584,9 @@ padding-left: 4vh;
         height: 4vh; 
         font-size: 10px; 
     }
+    #home #frame1 #mid{
+        displya:flex;
+        justify-content:space-between;
 
     #home #frame1 #mid #heading h3 {
         font-size: 25px; 
