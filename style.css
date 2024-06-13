@@ -1569,7 +1569,7 @@ padding-left: 4vh;
 
 @media (max-width: 480px) {
     #home{
-        height:130vh;
+        height:110vh;
     }
     #home #frame1{
         margin-left:10px;
@@ -1594,7 +1594,7 @@ padding-left: 4vh;
     #home #frame1 #mid #heading h3 {
         font-size: 25px; 
         width:80%;
-        margin-right:-1vh;
+        margin-right:-3vh;
     }
     #home #mid #logo img{
         margin-top:5px;
