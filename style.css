@@ -2011,11 +2011,13 @@ padding-left: 4vh;
             margin-right: 50vh;
             
         }
-    
+       #client #frame46 #frame48 #frame49{
+           padding:20px;
+       }
         #client #frame46 #frame48 #frame49 h3 {
             font-size: 30px;
             margin-left: -10px;
-            padding:10px;
+        
         }
     
         #client #frame46 #frame48 #frame49 p {
