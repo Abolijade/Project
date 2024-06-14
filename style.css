@@ -4,10 +4,14 @@
     
     scroll-behavior: smooth;
 
+} 
+#home,#acheivement,#services,#plans,#design,#work,#partner,#banner,#about,#client,#faqs,#story,#contact,#footer{
+    max-width:100%;
 }
 body{
     background-color: black;
     width:100%;
+    max-width:100%;
     border:1px solid black;
     border-radius: 40px;
     display: flex;
