@@ -262,7 +262,7 @@ body{
 }
 #design{
     background-color: #272727;
-    height:125vh;
+    height:auto;
     width: 100%;
     margin: 10px 0 10px 0;
     background-image: url("images/design_bg.png");
