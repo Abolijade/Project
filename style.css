@@ -606,6 +606,11 @@ text-align:center;
     margin-left:-5vh;
     
 } 
+#client #frame46 #frame51{
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+}
 #client #frame46 #frame51 div{
     color:white;
     background-color: #272727;
