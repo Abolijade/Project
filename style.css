@@ -262,7 +262,7 @@ body{
 }
 #design{
     background-color: #272727;
-    height:auto;
+    height:135vh;
     width: 100%;
     margin: 10px 0 10px 0;
     background-image: url("images/design_bg.png");
@@ -495,6 +495,7 @@ text-align:center;
     gap:5vh;
     margin-left: 20px;
     margin-right: 10vh;
+    text-align: left; 
 }
 #about #frame21 #frame20{
     margin-left: 5px;
@@ -559,7 +560,7 @@ text-align:center;
 
 #client{
     background-color: #272727;
-    height: 120vh;
+    height: 130vh;
     width: 100%;
     margin: 10px 0 10px 0;
 }
