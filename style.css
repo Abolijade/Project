@@ -2053,6 +2053,7 @@ padding-left: 4vh;
     }
     
     #footer #frame40 #frame42 #frame43 ul {
+        text-decoration:none;
         display: flex;
         flex-direction:column;
         align-items:center;
