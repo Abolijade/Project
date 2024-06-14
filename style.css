@@ -5,6 +5,11 @@
     scroll-behavior: smooth;
 
 } 
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 #home,#acheivement,#services,#plans,#design,#work,#partner,#banner,#about,#client,#faqs,#story,#contact,#footer{
     max-width:100%;
 }
