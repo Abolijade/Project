@@ -262,7 +262,7 @@ body{
 }
 #design{
     background-color: #272727;
-    height:145vh;
+    height:115vh;
     width: 100%;
     margin: 10px 0 10px 0;
     background-image: url("images/design_bg.png");
@@ -560,7 +560,7 @@ text-align:center;
 
 #client{
     background-color: #272727;
-    height: 140vh;
+    height: 110vh;
     width: 100%;
     margin: 10px 0 10px 0;
 }
