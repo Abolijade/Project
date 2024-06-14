@@ -610,6 +610,7 @@ text-align:center;
     display:flex;
     flex-direction:column;
     gap:5px;
+    margin-top:-5vh;
 }
 #client #frame46 #frame51 div{
     color:white;
