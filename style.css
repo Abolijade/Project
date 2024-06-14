@@ -1991,7 +1991,7 @@ padding-left: 4vh;
             width:100%;
         }
     #client{
-        height:140vh;
+        height:145vh;
     }
        
             #client #frame46 {
@@ -2034,7 +2034,8 @@ padding-left: 4vh;
     #client #frame46 #frame51{
         display:flex;
         flex-direction:column;
-        gap:3vh;
+        gap:4vh;
+        margin-left:30%;
     }
         #client #frame46 #frame51 div{
             width:30%;
